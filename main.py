@@ -45,9 +45,9 @@ def main_fun(weight_list=None, ddir=None, pool_size=10, num_feat = 1, mtype=None
         # acc, f1 = test(test_fname, sent_file, fd=fd, base_dir=base_dir, out_dir=out_dir, pool_size=pool_size, num_feat=num_feat)
 
         acc,f1 = test_nn(test_fname, train_fname, test_sent_f, fd, out_dir=out_dir, pool_size=pool_size)
-        print '\t',j, '::\tAccuracy :', acc, '\tF1 score :', f1
+        print '\t::\tAccuracy :', acc, '\tF1 score :', f1
 
-        fd1.write('\t'+str(j)+'::\tAccuracy : '+str(acc)+'\tF1 score : '+str(f1)+'\n')
+        fd1.write('\t::\tAccuracy : '+str(acc)+'\tF1 score : '+str(f1)+'\n')
         # fd2.write(str(j)+" start for : "+temp[0]+' setting : pool_size='+str(pool_size)+' num_feat='+str(num_feat)+' aggr='+pf+'\n\tAccuracy : '+str(acc)+ '\n\tF1 score : '+ str(f1)+'\n')
         fd.close()
 
@@ -57,7 +57,7 @@ def main_fun(weight_list=None, ddir=None, pool_size=10, num_feat = 1, mtype=None
         elif mtype[i] == 'normal':
             nhid = 1
 
-        ROC_plot(out_dir+str(j), stp= wstp, num_feat=num_feat, nhlayer=nhid, v_size= v_size)
+        ROC_plot(out_dir, stp= wstp, num_feat=num_feat, nhlayer=nhid, v_size= v_size)
         # exit()
     fd1.close()
 
@@ -65,10 +65,10 @@ if __name__ == '__main__':
     Global.init()
     v_size = 200
     weights = [
-        './weights/h1_wost_2_/h1_wost_2__0_.pickle',
-        './weights/h1_wst_2_/h1_wst_2__1_.pickle',
-        './weights/h2_wost_2_/h2_wost_2__0_.pickle',
-        './weights/h2_wst_2_/h2_wst_2__1_.pickle',
+        './weights/h1_wost_2__0_.pickle',
+        './weights/h1_wst_2__1_.pickle',
+        './weights/h2_wost_2__0_.pickle',
+        './weights/h2_wst_2__1_.pickle',
     ]
     mtype =['normal','normal','deep','deep']
     spwd = [0,1,0,1]

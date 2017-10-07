@@ -36,7 +36,7 @@ def main_fun(weight_list=None, ddir=None, pool_size=10, num_feat = 1, mtype=None
         # for j in range(1):
 
         train_fname, _= test_data_set_maker_by_wd(flag='train',base_dir=base_dir, out_dir=out_dir, stp=wstp, pool_size=pool_size, num_feat=num_feat, mtype = mtype[i], pf=pf)
-        fd = open(out_dir+str(j)+'_'+'nn_result.txt','w')
+        fd = open(out_dir+'nn_result.txt','w')
         # fd = open(out_dir+'SVM_result.txt','w')
         # train(train_fname, 'NN_train.csv', out_dir=out_dir, pool_size=pool_size)
 

@@ -48,7 +48,7 @@ from scipy import interp
 
 def ROC_plot(ddir, stp, num_feat, nhlayer, v_size):
     # ddir = '/media/zero/41FF48D81730BD9B/Final_Thesies/results/SVM_results/deep21_v_200__0__15_1_min/'
-    trainset = np.loadtxt(ddir[:-1]+'train_vector_dataset.csv', delimiter=',')
+    trainset = np.loadtxt(ddir+'train_vector_dataset.csv', delimiter=',')
     X_train = trainset[:, 1:]
     ty_train = trainset[:,0]
     y_train = np.zeros((trainset.shape[0],2))

@@ -58,7 +58,7 @@ def ROC_plot(ddir, stp, num_feat, nhlayer, v_size):
         else:
             y_train[i,1] = 1
 
-    testset = np.loadtxt(ddir[:-1]+'test_vector_dataset.csv', delimiter=',')
+    testset = np.loadtxt(ddir+'test_vector_dataset.csv', delimiter=',')
     X_test = testset[:, 1:]
     ty_test = testset[:,0]
     y_test = np.zeros((testset.shape[0],2))

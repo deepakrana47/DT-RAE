@@ -1,0 +1,132 @@
+u.s.,united states
+u.s,united states
+u.n.,united nation
+u.k.,united kingdom
+uk,united kingdom
+corp.,corporation
+inc.,incorporated
+dec.,december
+jan.,january
+feb.,february
+mar.,march
+gov.,government
+sen.,senator
+apr.,april
+jun.,june
+jul.,july
+aug.,august
+sep.,september
+sept.,september
+oct.,october
+nov.,november
+dec.,december
+co.,company
+llc.,limited liability company
+llc,limited liability company
+'80s,80
+'90s,90
+ltd.,limited
+no.,number
+no.,number
+dr.,docter
+mr.,mr
+mrs.,mrs
+miss.,miss
+ms.,ms
+a.m.,am
+p.m.,pm
+p.m,pm
+tcp/ip,tcp ip
+ain't,are not
+aren't,are not
+can't,can not
+cannot,can not
+couldn't,could not
+could've,could have
+didn't,did not
+doesn't,does not
+don't,do not
+hadn't,had not
+hasn't,has not
+haven't,have not
+he'd,he did
+he'll,he will
+i'd,i did
+i'll,i will
+i'm,i am
+i've,i have
+isn't,is not
+its,it
+let's,let
+mustn't,must not
+shan't,shall not
+she'd,she did
+she'll,she will
+shouldn't,should not
+they'd,they did
+they'll,they will
+they're,they are
+they've,they have
+wasn't,was not
+we'd,we did
+we'll,we will
+we're,we are
+we've,we have
+weren't,were not
+won't,would not
+wouldn't,would not
+you'd,you did
+you'll,you will
+you're,you are
+you've,you have
+yours,your
+yourselves,yourself
+arent,are not
+cant,can not
+couldnt,could not
+couldev, could have
+didnt,did not
+doesnt,does not
+dont,do not
+hadnt,had not
+hasnt,has not
+havent,have not
+im,i am
+isnt,is not
+mustnt,must not
+shant,shall not
+shouldnt,should not
+theyll,they will
+theyre,they are
+theyve,they have
+wasnt,was not
+werent,were not
+wont,would not
+wouldnt,would not
+youd,you would
+youll,you will
+youre,you are
+youve,you have
+crossingaposs,crossing a poss
+pneumococcusleads,pneumococcus leads
+anyoneso,any one so
+lt.,lieutenant
+lieut.,lieutenant
+col.,colonel
+gen.,general
+rep.,represent
+cmdr.,commander
+invividuals,individuals
+years.,years
+howeverhas,however has
+capt.,captain
+tuesdayannounce,tuesday announce
+ibmof,ibm of
+andinfineon,and infineon
+reprehensiblebehaviour,reprehensible behaviour
+no.,number
+theoctober,the october
+s.s.r.i.,ssri
+bn,billion
+r&d,research and development
+e.g.,example
